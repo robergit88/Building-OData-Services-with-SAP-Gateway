@@ -63,7 +63,7 @@ El servidor puede entregar código a pedido al cliente. A petición del cliente,
 
 #### Estándar OData
 
-[infraestructura](./img/infraestructura.png)
+[infraestructura](/img/infraestructura.png)
 
 Un aspecto importante de la arquitectura de la World Wide Web es el uso de interfaces abstractas para la comunicación de componentes. Estas interfaces abstractas se presentan como conectores. Un cliente y un servidor utilizan cada uno un componente conector. Existe un contrato entre ambos conectores que define el protocolo de aplicación. Define los documentos, su formato y el comportamiento. Se puede elegir cualquier protocolo. Al utilizar el concepto de conector, tanto el cliente como el servidor son en gran medida independientes e intercambiables. Cada conector traduce los documentos intercambiados en el canal de comunicación a las representaciones internas tanto en el servidor como en el cliente, y viceversa.
 
