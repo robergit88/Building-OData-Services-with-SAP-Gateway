@@ -28,7 +28,7 @@ Una arquitectura RESTful debe cumplir:
 * Interfaz uniforme
 * Código a pedido
 
-1. Arquitectura cliente-servidor
+1. ### Arquitectura cliente-servidor
 
 Los participantes de una arquitectura RESTful deben implementar el modelo cliente-servidor, que permite que los componentes de software del cliente y del servidor se desarrollen de forma independiente. Supone que el cliente no participará en el almacenamiento de datos a largo plazo y que el servidor no participará en la presentación de los datos que proporciona. Este principio se conoce como separación de preocupaciones.
 
