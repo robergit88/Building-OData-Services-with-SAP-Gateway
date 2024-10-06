@@ -19,7 +19,7 @@ Es importante señalar que el hecho de que un protocolo de aplicación utilice H
 
 ### Restricciones de diseño de una arquitectura RESTful
 
-Las restricciones de diseño de una arquitectura RESTful son las siguientes:
+Una arquitectura RESTful debe cumplir:
 
 * Arquitectura cliente-servidor
 * Capacidad de almacenamiento en caché
