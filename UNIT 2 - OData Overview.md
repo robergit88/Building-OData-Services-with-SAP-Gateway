@@ -28,23 +28,23 @@ Una arquitectura RESTful debe cumplir:
 * Interfaz uniforme
 * Código a pedido
 
-1. ### Arquitectura cliente-servidor
+### 1. Arquitectura cliente-servidor
 
 Los participantes de una arquitectura RESTful deben implementar el modelo cliente-servidor, que permite que los componentes de software del cliente y del servidor se desarrollen de forma independiente. Supone que el cliente no participará en el almacenamiento de datos a largo plazo y que el servidor no participará en la presentación de los datos que proporciona. Este principio se conoce como separación de preocupaciones.
 
 
-2. Capacidad de almacenamiento en caché
+### 2. Capacidad de almacenamiento en caché
 Para mejorar el rendimiento y la escalabilidad, cada respuesta del servidor debe llevar consigo un indicador que indique si se puede almacenar en caché o no para su uso futuro. Esto es para evitar que el cliente trabaje con datos obsoletos.
 
 
-3. Sin estado
+### 3. Sin estado
 La comunicación entre los participantes debe ser sin estado. Una interfaz sin estado requiere que el cliente proporcione toda la información necesaria para que el servidor procese la solicitud. La información de la sesión debe mantenerse en el lado del cliente. El servidor puede almacenar información sobre el estado del cliente, sin embargo, el cliente debe conocer dicha información y poder acceder a ella.
 
 
-4. Sistema en capas
+### 4. Sistema en capas
 La comunicación entre los participantes debe ser en capas. Cuando el cliente se comunica con un servidor, no debería poder distinguir si se ha comunicado con el servidor de punto final real que proporcionará la información solicitada o con algún servidor intermedio utilizado para la escalabilidad o seguridad del sistema.
 
-5. Interfaz uniforme
+### 5. Interfaz uniforme
 Una interfaz uniforme entre los clientes y los servidores desacopla la arquitectura. Una interfaz uniforme tiene las siguientes características:
 
     5.1 El servidor debe proporcionar al cliente una representación (por ejemplo, una URL) de sus recursos.
