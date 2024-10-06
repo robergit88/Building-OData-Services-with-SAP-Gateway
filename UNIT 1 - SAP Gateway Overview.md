@@ -17,7 +17,7 @@
 
 ### Resumen
 - La Puerta de enlace SAP es una solución que permite el acceso a datos comerciales desde dispositivos móviles, originada en la necesidad de comercio móvil.
-- Se utiliza a menudo con OData, un estándar para acceder a datos en un entorno móvil, formando un contrato entre las partes no SAP y SAP.
+- Se utiliza a menudo con OData, un estándar para acceder a datos en un entorno móvil, formando un contrato entre las partes SAP y no SAP.
 - Las implementaciones de Puerta de enlace SAP pueden ser flexibles, con marcos front-end y back-end que operan en sistemas separados o integrados en el mismo sistema.
 - El sitio web OData.org es una importante fuente de aprendizaje sobre OData, con pasos esenciales para el acceso y navegación disponibles en el sitio.
 - El SAP Fiori Launchpad es un ejemplo destacado de un producto que utiliza SAP Gateway, ofreciendo una experiencia de usuario unificada para las funciones de software SAP.
